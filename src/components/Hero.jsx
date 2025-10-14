@@ -1,10 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useRef} from "react";
 
 const Hero = () => {
     const videoRef = useRef();
 
     useEffect(() => {
-        if(videoRef.current) videoRef.current.playbackRate = 2;
+        if(videoRef.current) videoRef.current.playbackRate = 3;
     }, []);
 
     return (
@@ -17,7 +17,7 @@ const Hero = () => {
             <video src="/videos/hero.mp4" autoPlay muted playsInline/>
 
             <button>Buy</button>
-            <p>From $1999 or 133/month for 12 months</p>
+            <p>From $1999 or 133$/month for 12 months</p>
         </section>
   )
 }
