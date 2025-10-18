@@ -17,7 +17,7 @@ const Hero = () => {
             <video src="/videos/hero.mp4" autoPlay muted playsInline/>
 
             <button>Buy</button>
-            <p>From $1999 or 133$/month for 12 months</p>
+            <p>From $1999 or 150$/month for 12 months</p>
         </section>
   )
 }
